@@ -5,7 +5,7 @@ application with [Kubernetes](https://kubernetes.io).
 
 This directory contains:
 
-- `main.go` contains the HTTP server implementation that responds to requests with inforamtion
+- `main.go` contains the HTTP server implementation that responds to requests with information
 -  about the service responding to the request. 
 - `Dockerfile` is used to build the Docker image for the application and simply compiles all go files
 -  in the current directory to an application called echo-app.
